@@ -1,3 +1,5 @@
+# Binome 
+Bochra Feki et Sinda Ben Marzouk GL4
 # Architecture
 Model-View-ViewModel (MVVM) is a software design pattern that is structured to separate program logic and user interface controls.
 It guides the structure and design of your code to help you achieve “Separation of Concerns.”
