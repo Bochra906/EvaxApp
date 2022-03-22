@@ -1,0 +1,8 @@
+.table-headers{
+    color: rgb(161, 110, 110);
+  }
+  .vacc-header > h1{
+    color:red;
+    text-align: center;
+    margin-bottom: 1rem;
+  }

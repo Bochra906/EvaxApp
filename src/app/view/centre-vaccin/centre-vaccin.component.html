@@ -1,0 +1,27 @@
+<div class="container mt-5">
+    <div class=" vacc-header">
+      <h1>Centres de vaccination</h1>
+    </div>
+    <table class="table">
+      <thead>
+      <tr class="table-headers">
+        <th scope="col">Nom</th>
+        <th scope="col">Numéro de téléphone</th>
+        <th scope="col">Gouvernorat</th>
+        <th scope="col">Nombre des vaccinés</th>
+        <th scope="col">Nombre des inscrits</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let centreVaccination of centreVaccinations">
+        <td>{{centreVaccination.nom}}</td>
+        <td>{{centreVaccination.numTel}}</td>
+        <td>{{centreVaccination.gouvernorat}}</td>
+        <td>{{centreVaccination.nbVaccines}}</td>
+        <td>{{centreVaccination.nbInscrits}}</td>
+      </tr>
+      </tbody>
+    </table>
+    
+  </div>
+  
